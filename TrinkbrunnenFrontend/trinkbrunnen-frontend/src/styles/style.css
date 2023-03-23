@@ -1,0 +1,223 @@
+.mapBox {
+    height:550px;
+    width:100%;
+    display: flex;
+    padding: 20px;
+}
+
+.mapWrapper {
+    height: 100%;
+    flex: 1 0 0;
+}
+
+
+
+/*Login*/
+body {
+    background-color: #cfd8dc;
+    background-image: linear-gradient(to bottom, #cfd8dc, #d9e3f0);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-image: linear-gradient(to bottom, #5a739a, #077294);
+}
+
+.headerText {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+
+.image-container img {
+    max-width: 200px;
+    max-height: 200px;
+
+    border-radius: 50%;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+#loginBtn {
+    background-image: linear-gradient(to bottom, #5a739a, #077294);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+#loginBtn:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 5px #888888;
+}
+
+/*MainScreen*/
+
+.topContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addLocationBox {
+margin-right: 900px;
+    margin-top: 30px;
+
+
+}
+
+.btn_addcontact {
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, #5a739a, #077294);
+    width: 80px;
+}
+
+.logoutBox {
+    margin-right: 20px;
+}
+
+#logoutBtn {
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, #5a739a, #077294);
+    margin-top: 30px;
+    margin-left: 800px;
+}
+
+
+.mapContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mapBox {
+
+    width: 80%;
+    height: calc(100vh - 50px);
+    margin-left: auto;
+    position: relative;
+}
+
+.locationButtons {
+    position: relative; /* Positionierung relativ zum Eltern-Container */
+    width: 150px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #808fad;
+    z-index: 999;
+    background-image: linear-gradient(to bottom, #a19d9d, #938e8e);
+}
+
+
+.locationButtons button {
+    margin-bottom: 10px;
+    background-image: linear-gradient(to bottom, #5a739a, #077294);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.locationBox {
+    position: relative;
+    width: 20%;
+    height: calc(100vh - 50px);
+}
+
+/*updateDeleteScreen*/
+
+.updateDeleteScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.input_lable {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+#addLocationBtn {
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom, #5a739a, #077294);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+#addLocationBtn:hover {
+    background-color: #0058be;
+}
+
+#addLocationBtn:active {
+    background-color: #002b80;
+}
